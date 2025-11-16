@@ -43,6 +43,12 @@ jobs:
         pip install buildozer
         pip install cython==0.29.33
         
+    - name: Accept Android SDK licenses
+      run: |
+        mkdir -p ~/.android
+        touch ~/.android/repositories.cfg
+        yes | /root/.buildozer/android/platform/android-sdk/tools/bin/sdkmanager --licenses || true
+        
     - name: Build APK with Buildozer
       timeout-minutes: 60
       run: |
