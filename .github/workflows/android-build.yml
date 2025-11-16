@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  workflow_dispatch:  # Позволяет запускать вручную
+  workflow_dispatch:
 
 jobs:
   build:
@@ -29,9 +29,13 @@ jobs:
           git \
           zip \
           unzip \
-          libncurses5 \
+          libncurses6 \
           libstdc++6 \
-          zlib1g
+          zlib1g \
+          build-essential \
+          libssl-dev \
+          libffi-dev \
+          python3-dev
         
     - name: Install Buildozer and dependencies
       run: |
