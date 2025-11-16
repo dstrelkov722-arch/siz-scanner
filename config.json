@@ -1,0 +1,18 @@
+{
+    "app_name": "Сканер СИЗ",
+    "version": "1.0",
+    "settings": {
+        "warning_days": 30,
+        "max_history_items": 1000,
+        "auto_save": true,
+        "camera_index": 0
+    },
+    "siz_categories": [
+        "Респираторы",
+        "Очки защитные", 
+        "Каски",
+        "Перчатки",
+        "Одежда специальная",
+        "Обувь защитная"
+    ]
+}

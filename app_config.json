@@ -1,0 +1,18 @@
+{
+    "app": {
+        "name": "Сканер СИЗ",
+        "version": "1.1.0",
+        "author": "Ваша компания"
+    },
+    "settings": {
+        "auto_backup": true,
+        "backup_interval_days": 7,
+        "notifications": true,
+        "warning_days_before_expiry": 30,
+        "max_history_items": 1000
+    },
+    "qr_formats": {
+        "siz": ["name", "type", "protection_class", "expiry_date", "manufacturer", "certificate"],
+        "receipt": ["t", "s", "fn", "i", "fp", "n"]
+    }
+}

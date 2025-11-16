@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "check_interval_hours": 24,
+  "last_check": "2025-11-16T18:05:28.484565",
+  "warning_days": 30
+}

@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "server_url": "http://localhost:8000",
+  "sync_interval": 3600,
+  "last_sync": null
+}

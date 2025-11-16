@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-11-16T18:29:42.003538",
+    "records_count": 16
+  },
+  "data": [
+    {
+      "name": "Респиратор Р-2",
+      "type": "Фильтрующий полумаска",
+      "expiry_date": "2025-12-31",
+      "protection_class": "FFP2",
+      "timestamp": "16.11.2025 16:32"
+    },
+    {
+      "name": "Респиратор Р-2",
+      "type": "Фильтрующий полумаска",
+      "expiry_date": "2025-12-31",
+      "protection_class": "FFP2",
+      "timestamp": "16.11.2025 16:38"
+    },
+    {
+      "name": "Респиратор Р-2",
+      "type": "Фильтрующий полумаска",
+      "expiry_date": "2025-12-31",
+      "protection_class": "FFP2",
+      "timestamp": "16.11.2025 16:39"
+    },
+    {
+      "name": "Респиратор Р-2",
+      "type": "Фильтрующий полумаска",
+      "expiry_date": "2025-12-31",
+      "protection_class": "FFP2",
+      "timestamp": "16.11.2025 16:39"
+    },
+    {
+      "name": "Защитные очки",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "timestamp": "16.11.2025 16:44"
+    },
+    {
+      "name": "Защитные очки",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "timestamp": "16.11.2025 16:45"
+    },
+    {
+      "name": "Респиратор Р-2 (демо)",
+      "type": "Фильтрующий полумаска",
+      "expiry_date": "2025-12-31",
+      "protection_class": "FFP2",
+      "manufacturer": "Завод СИЗ",
+      "certificate": "РОСС RU.ПБ01.В00001",
+      "timestamp": "16.11.2025 16:51"
+    },
+    {
+      "name": "Защитные очки (из файла)",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "timestamp": "16.11.2025 16:51"
+    },
+    {
+      "name": "Респиратор Р-2 (демо)",
+      "type": "Фильтрующий полумаска",
+      "expiry_date": "2025-12-31",
+      "protection_class": "FFP2",
+      "manufacturer": "Завод СИЗ",
+      "certificate": "РОСС RU.ПБ01.В00001",
+      "timestamp": "16.11.2025 16:52"
+    },
+    {
+      "name": "Защитные очки (из файла)",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "timestamp": "16.11.2025 16:52"
+    },
+    {
+      "name": "Неизвестно",
+      "type": "Не указан",
+      "expiry_date": "Не указан",
+      "protection_class": "Не указан",
+      "manufacturer": "Не указан",
+      "certificate": "Не указан",
+      "timestamp": "16.11.2025 16:55"
+    },
+    {
+      "name": "Защитные очки (из файла)",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "data_type": "СИЗ",
+      "timestamp": "16.11.2025 17:17"
+    },
+    {
+      "name": "Структурированные данные",
+      "type": "Структурированные данные",
+      "data_type": "Структурированные данные",
+      "fields_count": 1,
+      "timestamp": "16.11.2025 17:17",
+      "raw_data": "t=20251115T1213&s=150.00&fn=7380440801230307&i=3562&fp=1980160056&n=1"
+    },
+    {
+      "name": "Защитные очки (из файла)",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "data_type": "СИЗ",
+      "timestamp": "16.11.2025 17:18"
+    },
+    {
+      "name": "Защитные очки (из файла)",
+      "type": "Очки защитные",
+      "expiry_date": "2026-06-30",
+      "protection_class": "EN166",
+      "manufacturer": "Очковый завод",
+      "certificate": "РОСС RU.ПБ03.В00003",
+      "data_type": "СИЗ",
+      "timestamp": "16.11.2025 17:52"
+    },
+    {
+      "name": "Восстановленный СИЗ",
+      "type": "Перчатки защитные",
+      "expiry_date": "2026-03-15",
+      "protection_class": "EN388",
+      "manufacturer": "Завод СИЗ",
+      "certificate": "РОСС RU.ПБ05.В00005",
+      "data_type": "СИЗ",
+      "timestamp": "01.01.2024 10:00"
+    }
+  ]
+}

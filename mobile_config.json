@@ -1,0 +1,20 @@
+{
+    "app": {
+        "name": "Сканер СИЗ Мобайл",
+        "version": "1.0.0",
+        "platform": "android"
+    },
+    "settings": {
+        "auto_backup": true,
+        "max_history_items": 500,
+        "enable_notifications": true,
+        "vibration_feedback": true,
+        "theme": "light"
+    },
+    "features": {
+        "qr_scanning": true,
+        "history_management": true,
+        "backup_export": true,
+        "offline_mode": true
+    }
+}
