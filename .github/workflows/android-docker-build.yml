@@ -1,0 +1,30 @@
+name: Android APK Build with Docker
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Build with Docker
+      timeout-minutes: 60
+      run: |
+        # Используем официальный образ для сборки Kivy приложений
+        docker run --rm \
+          -v $(pwd):/src \
+          -v buildozer_cache:/root/.buildozer \
+          kivy/buildozer android debug
+        
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: siz-scanner-docker-apk
+        path: bin/*.apk
+        retention-days: 7
